@@ -15,16 +15,13 @@ def minOperations(n):
 
     while pasted_chars < n:
         # if did not copy anything yet
-        if clipboard == 0:
-            
-            clipboard = pasted_chars
-            
+        if clipboard == 0: 
+            clipboard = pasted_chars            
             counter += 1
 
-        
         if pasted_chars == 1:
             # paste
-            pasted_chars += clipboard            
+            pasted_chars += clipboard
             counter += 1
             continue
 
